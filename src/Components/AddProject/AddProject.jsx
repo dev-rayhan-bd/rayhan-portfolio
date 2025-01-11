@@ -45,7 +45,7 @@ const AddProject = () => {
     }
   
   ]
-        fetch("http://localhost:5000/addProject", {
+        fetch("https://rayhan-shorker-portfolio-server.vercel.app/addProject", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(details),
